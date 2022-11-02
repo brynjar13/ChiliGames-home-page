@@ -1,7 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* og látum erfast á allt */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
 
 header {
   background-image: url('./chilipng.png');
-  padding: 5rem;
+  padding: 5rem 0;
 }
 
 h1 {
@@ -9,4 +25,8 @@ h1 {
   margin: auto;
   text-align: center;
   font-size: 2rem;
+}
+
+ul {
+  margin-left: 1rem;
 }
